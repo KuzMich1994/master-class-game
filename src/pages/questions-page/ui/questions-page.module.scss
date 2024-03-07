@@ -1,0 +1,14 @@
+@import '@variables';
+
+.game {
+  animation: view 200ms ease-in 0ms 1;
+}
+
+@keyframes view {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

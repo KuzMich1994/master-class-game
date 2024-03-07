@@ -1,0 +1,13 @@
+import { Meta, StoryObj } from '@storybook/react';
+import { Card } from './card';
+
+const meta: Meta<typeof Card> = {
+  component: Card,
+};
+export default meta;
+
+type Story = StoryObj<typeof Card>;
+
+export const CardPrimary: Story = {
+  render: () => <Card className="adad">adad</Card>,
+};

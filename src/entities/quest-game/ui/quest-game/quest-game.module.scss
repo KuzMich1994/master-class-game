@@ -1,0 +1,110 @@
+@import '@variables';
+
+.back {
+  padding: 0 24px !important;
+}
+
+.source-container {
+  max-width: 1364px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.source-dropable {
+  width: 100%;
+  min-height: 376px;
+}
+
+.is-corrected {
+  border-color: $green !important;
+}
+
+.is-not-corrected {
+  border-color: $red-primary !important;
+}
+
+.source {
+  max-width: 816px;
+}
+
+.info {
+  font: $font-14-19;
+  max-width: 300px;
+}
+
+.info-bottom {
+  max-width: 100%;
+  margin-right: auto;
+}
+
+.target {
+  max-width: 290px;
+  width: 100%;
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popup {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.target-card {
+  max-width: 260px;
+  width: 100%;
+  min-height: 180px;
+  flex: 1 1 auto;
+  margin-bottom: 16px;
+  background-repeat: no-repeat;
+  background-position: 0 calc(100% - 6px);
+}
+
+.card-in-target {
+  //z-index: 1;
+}
+
+.has-card {
+  border: none;
+}
+
+.button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font: $font-14-19;
+}
+
+/* train-shadow */
+.shadow {
+  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.1));
+}
+
+.check-icon {
+  padding-bottom: 8px;
+  visibility: hidden;
+}
+
+.checked {
+  visibility: visible;
+}
+
+.info-card {
+  opacity: 0;
+  padding: 16px 24px 16px 12px;
+  transition: opacity 0.3s;
+}
+
+.info-icon {
+  flex-shrink: 0;
+}
+
+.info-text {
+  width: max-content;
+}
+
+.error {
+  opacity: 1;
+}

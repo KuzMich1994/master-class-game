@@ -1,0 +1,15 @@
+@import '@variables';
+
+.app,
+.app-modal {
+  color: $primary-color;
+  font: $font-24-32;
+  overflow-x: hidden;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: $primary-bg;
+}

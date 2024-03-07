@@ -1,0 +1,42 @@
+@import "@variables";
+
+.main-page {
+  max-width: 1000px;
+}
+
+.icon {
+  color: $red-primary;
+}
+
+.link {
+  width: 100%;
+}
+
+.link-card {
+  padding: 32px 32px 42px;
+  color: $primary-color;
+
+  &:active {
+    background: $color-grey-active;
+  }
+}
+
+.text {
+  letter-spacing: -0.096px;
+}
+
+.extra-small-width {
+  max-width: 280px;
+}
+
+.small-width {
+  max-width: 300px;
+}
+
+.medium-width {
+  max-width: 334px;
+}
+
+.large-width {
+  max-width: 390px;
+}

@@ -1,0 +1,19 @@
+@import "@variables";
+
+.card {
+  border: 1px solid $border-color;
+  box-shadow: 2px 1px 6px 0 $box-shadow-top, 10px 4px 11px 0 $box-shadow-right, 22px 10px 14px 0 $box-shadow-bottom, 38px 18px 17px 0 $box-shadow-left, 60px 28px 18px 0 $box-shadow-xz;
+  border-radius: 8px;
+}
+
+.without-shadow {
+  box-shadow: none;
+}
+
+.primary {
+  background: $white-color;
+}
+
+.secondary {
+  background: $secondary-bg;
+}

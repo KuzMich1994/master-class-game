@@ -1,0 +1,31 @@
+@import '@variables';
+
+.button {
+  cursor: pointer;
+  font: $font-22-22;
+  border-radius: 8px;
+  padding: 12.5px 36px 15.5px 32px;
+  border: none;
+}
+
+.primary {
+  color: $white-color;
+  background: $blue;
+
+  &:active {
+    background: $blue-active;
+  }
+}
+
+.secondary {
+  color: $color-grey-100;
+  background: $color-grey-opacity-5;
+
+  &:active {
+    color: $primary-color;
+  }
+}
+
+.disabled {
+  opacity: 0.35;
+}

@@ -1,0 +1,7 @@
+@import '@mixins/font-face.scss';
+@include font-face('@fonts/OpenSans-Light.ttf', 'OpenSans-Light');
+@include font-face('@fonts/OpenSans-Regular.ttf', 'OpenSans-Regular');
+@include font-face('@fonts/OpenSans-Medium.ttf', 'OpenSans-Medium');
+@include font-face('@fonts/OpenSans-SemiBold.ttf', 'OpenSans-SemiBold');
+@include font-face('@fonts/OpenSans-Bold.ttf', 'OpenSans-Bold');
+@include font-face('@fonts/Montserrat-SemiBold.ttf', 'Montserrat-SemiBold');

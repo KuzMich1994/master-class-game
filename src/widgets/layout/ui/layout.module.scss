@@ -1,0 +1,19 @@
+@import "@variables";
+
+.layout {
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+  flex: 1 1 auto;
+  padding: 32px 32px 61px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 14px 16px;
+  border-top: 1px solid $border-color;
+  background: $primary-bg;
+}

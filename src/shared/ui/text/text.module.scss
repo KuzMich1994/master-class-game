@@ -1,0 +1,145 @@
+@import "@variables";
+
+.text {
+  color: $primary-color;
+}
+
+.title {
+  color: $primary-color;
+}
+
+.red {
+  .text {
+    color: $red-primary;
+  }
+
+  .title {
+    color: $red-primary;
+  }
+}
+
+.secondary {
+  .text {
+    color: $secondary-color;
+  }
+
+  .title {
+    color: $secondary-color;
+  }
+}
+
+.description {
+  .text {
+    color: $color-grey-8B;
+  }
+
+  .title {
+    color: $color-grey-8B;
+  }
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+.size-12-12 {
+  font: $font-12-12;
+  font-weight: 400;
+
+  &_sb {
+    font: $font-12-12_sb;
+  }
+}
+
+.size-14-14 {
+  font: $font-14-14;
+  font-weight: 400;
+
+  &_sb {
+    font: $font-14-14_sb;
+  }
+}
+
+.size-20-20 {
+  font: $font-20-20;
+  font-weight: 400;
+
+  &_sb {
+    font: $font-20-20_sb;
+  }
+}
+
+.size-22-22 {
+  font: $font-22-22;
+  font-weight: 400;
+
+  &_sb {
+    font: $font-22-22_sb;
+  }
+}
+
+.size-24-30 {
+  font: $font-24-30;
+  font-weight: 400;
+
+  &_sb {
+    font: $font-24-30_sb;
+  }
+}
+
+.size-24-32 {
+  font: $font-24-32;
+  font-weight: 400;
+
+  &_sb {
+    font: $font-24-32_sb;
+  }
+}
+
+.size-26-32 {
+  font: $font-26-32;
+  font-weight: 400;
+
+  &_sb {
+    font: $font-26-32_sb;
+  }
+}
+
+.size-26-35 {
+  font: $font-26-35;
+  font-weight: 400;
+
+  &_sb {
+    font: $font-26-35_sb;
+  }
+}
+
+.size-26-26 {
+  font: $font-26-26;
+  font-weight: 400;
+
+  &_sb {
+    font: $font-26-26_sb;
+  }
+}
+
+.size-32-32 {
+  font: $font-32-32;
+  font-weight: 400;
+
+  &_sb {
+    font: $font-32-32_sb;
+  }
+}
+
+.size-montserrat-32-32 {
+  font: $font-montserrat-32-32;
+}
